@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var employee_js_1 = require("./employee.js");
+var john = new employee_js_1.Employee("John", "Smith", "074865", 78000);
+john.printInfo();
+john.setSalary(80000);
+john.getSalary();
+console.log('\n');
+var bob = new employee_js_1.Employee("Bob", "Builder", "127949", 57000);
+bob.printInfo();
+bob.setSalary(55000);
+john.getSalary();
