@@ -17,3 +17,4 @@ export const NewItem: React.FC = () => {
     );
 };
 
+export default NewItem;

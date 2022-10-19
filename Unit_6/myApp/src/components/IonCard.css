@@ -1,0 +1,4 @@
+ion-card-header.android {
+    display: flex;
+    flex-flow: column-reverse;
+  }
